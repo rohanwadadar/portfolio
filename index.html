@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <!-- saved from url=(0025)https://shakiz.github.io/ -->
 <html class=" js " lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evSX huddledayAHTa4wYo2BQDbijEXCg4kbZizX0jTUoi4wz4jP3j8ylGUSNqznB" crossorigin="anonymous">
+</head>
 
    <!--- basic page needs
    ================================================== -->
@@ -185,28 +188,34 @@ document.getElementById('overlay').addEventListener('click', function() {
 
    			<h3>Skills</h3>
 
-			   <ul class="skill-bars">
-				<li>
-					<div class="progress percent80"><span>80%</span></div>
-					<strong>JavaScript</strong>
-				</li>
-				<li>
-					<div class="progress percent75"><span>80%</span></div>
-					<strong>React</strong>
-				</li>
-				<li>
-					<div class="progress percent80"><span>85%</span></div>
-					<strong>MySQL</strong>
-				</li>
-				<li>
-					<div class="progress percent95"><span>95%</span></div>
-					<strong>HTML/CSS</strong>
-				</li>
-				<li>
-					<div class="progress percent83"><span>83%</span></div>
-					<strong>PHP</strong>
-				</li>
-			 </ul> <!-- /skill-bars -->		
+			  <ul class="skill-bars d-flex flex-wrap justify-content-between">
+  <li class="d-flex align-items-center">
+    <img src="https://example.com/path-to-javascript-logo.svg" alt="JavaScript Logo" class="skill-logo me-2">
+    <strong>JavaScript</strong>
+    <div class="progress percent90"><span>80%</span></div>
+  </li>
+  <li class="d-flex align-items-center">
+    <img src="https://example.com/path-to-react-logo.svg" alt="React Logo" class="skill-logo me-2">
+    <strong>React</strong>
+    <div class="progress percent75"><span>80%</span></div>
+  </li>
+  <li class="d-flex align-items-center">
+    <img src="https://example.com/path-to-mysql-logo.svg" alt="MySQL Logo" class="skill-logo me-2">
+    <strong>MySQL</strong>
+    <div class="progress percent80"><span>85%</span></div>
+  </li>
+  <li class="d-flex align-items-center">
+    <img src="https://example.com/path-to-html-css-logo.svg" alt="HTML/CSS Logo" class="skill-logo me-2">
+    <strong>HTML/CSS</strong>
+    <div class="progress percent95"><span>95%</span></div>
+  </li>
+  <li class="d-flex align-items-center">
+    <img src="https://example.com/path-to-html-css-logo.svg" alt="HTML/CSS Logo" class="skill-logo me-2">
+    <strong>HTML/CSS</strong>
+    <div class="progress percent83"><span>83%</span></div>
+  </li>
+</ul>
+
 
 		</div>
 
@@ -731,43 +740,5 @@ document.getElementById('overlay').addEventListener('click', function() {
    <script src="./rohanport/plugins.js.download"></script>
    <script src="./rohanport/main.js.download"></script>
 
-<style> 
-.folio-item {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: #fff; /* Text color */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none; /* Remove underline */
-}
-
-.overlay:hover {
-    opacity: 1; /* Show on hover */
-}
-
-.folio-title {
-    margin-bottom: 10px;
-}
-
-.folio-types {
-    font-style: italic;
-    font-size: 0.9em;
-}
-
-	</style>
 
 <scribe-shadow id="crxjs-ext" style="position: fixed; width: 0px; height: 0px; top: 0px; left: 0px; z-index: 2147483647; overflow: visible; visibility: visible;"><template shadowrootmode="open"><div id="root-scribe-elem" style="position: fixed; width: 0px; height: 0px; top: 0px; left: 0px; overflow: visible; color: rgb(15, 23, 42);"><div></div><div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;"><ol tabindex="-1" class="fixed bottom-auto right-0 top-0 z-[10000000] flex max-h-screen min-w-[300px] max-w-[360px] p-4"></ol></div></div><link rel="stylesheet" href="chrome-extension://okfkdaglfjjjfefdcppliegebpoegaii/assets/style.css"></template></scribe-shadow></body></html>
